@@ -1,0 +1,14 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build outputs
+out/
+bin/
+target/
+
+# Eclipse/VS Code (just in case)
+.project
+.classpath
+.settings/
+.vscode/
