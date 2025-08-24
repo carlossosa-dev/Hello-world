@@ -13,9 +13,8 @@ public class Fibonacci {
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
-    // Main method to test the Fibonacci function
     public static void main(String[] args) {
-        int n = 10;  // we need the 10th term
+        int n = 10;
         int result = fibonacci(n);
         System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
     }
